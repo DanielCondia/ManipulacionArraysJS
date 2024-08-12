@@ -1,0 +1,5 @@
+Método map:
+El método map es un método de transformación de datos generando un nuevo array a partir del array original.
+Éste método no modifica el arreglo original, por lo tanto es un método inmutable, al transformar un array con map, map genera un nuevo arreglo transformado.
+
+Map genera un nuevo array con los datos editados como nosostros lo indiquemos.
