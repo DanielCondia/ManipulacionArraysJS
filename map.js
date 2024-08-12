@@ -17,8 +17,8 @@ for (let i = 0; i < letras.length; i++) {
 imprimir(letras, nuevoArray);
 console.log('\n');
 
-console.log('Ejemplo de manipulación del array con el map');
 // Ejemplo de manipulación del array con el map
+console.log('Ejemplo de manipulación del array con el map');
 const nuevoArray2 = letras.map(item => item + '++');
 imprimir(letras, nuevoArray2);
 
