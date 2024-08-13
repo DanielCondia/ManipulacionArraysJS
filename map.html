@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+</head>
+
+<body>
+	<div id="app"></div>
+	
+	<script>
+		const app = document.querySelector('#app');
+		const productos = [
+			{nombre: 'Hamburguesa', precio: 1000},
+			{nombre: 'Pizza', precio: 1500},
+			{nombre: 'Perro Caliente', precio: 2000}
+		];
+		
+		const listaMutada = productos.map(item => {	// Recorremos la lista de los productos y la mutamos devolviendo la lista junto con elementos html
+			return `<li>${item.nombre} - ${item.precio}</li>`;
+		});
+		app.innerHTML = listaMutada.join('');	// Une la lista. Convierte los elementos de la lista en un solo string
+	</script>
+</body>
+</html>
