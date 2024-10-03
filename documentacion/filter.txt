@@ -1,0 +1,7 @@
+El método filter consiste en crear un nuevo array a partir de los elementos originales filtrados
+mediante una funcion que indica la condición a cumplir y es inmutable.
+Si la condición se cumple, retorna los elementos filtrados.
+
+-> Tener en cuenta que filter es inmutable. Eso quiere decir que genera un nuevo array
+	a partir del array original. Todos los valores que cumplen con la función van quedando 
+	dentro del nuevo array.
