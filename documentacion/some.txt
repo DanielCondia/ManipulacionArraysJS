@@ -1,0 +1,10 @@
+Some:
+El método some es inmutable y consiste en retornar un valor lógico verdadero si existe al menos
+un elemento que cumpla con la condición establecida en la función
+
+El método recibe dos argumentos:
+
+1. La función que itera y evalúa cada elemento del array hasta que al menos uno cumpla la condición
+	especificada.
+2. Un objeto al que puede hacer referencia el contexto this en la función. si se le omite será 
+	undefined
