@@ -1,0 +1,5 @@
+Date functions
+
+Libreria que tiene funciones para trabajar con Date en JS
+
+instalar con npm i date-fns
