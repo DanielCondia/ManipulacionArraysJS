@@ -1,0 +1,10 @@
+Find y FindIndex
+
+-> Estos métodos consisten en encontrar el primer elemento dentro de un conjunto de datos que cumpla con la 
+	condición específicada.
+	
+-> En el caso de find, retorna el objeto o elemento encontrado si se encuentra con la condición.
+	De lo contrarío devolvera undefined
+	
+-> En el caso de FindIndex devuelve la posición en la que se encuentra ubicado el elemento cumpliendo la condición.
+	De lo contrarío devuelve -1.

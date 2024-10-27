@@ -1,0 +1,11 @@
+Reduce en js
+El método reduce es inmutable y consiste en retornar un solo
+valor del array iterado a partir de una función.
+
+-> El método recibe dos argumentos
+	1. La función que itera y reduce cada elemento del array (obligatorio)
+	2. El valor iniciar que utilizará como argumento la función.
+		Si no se especifica, en la primera iteración el valor inicial será
+		el primer elemento del array y no ejecuta la función.
+		
+let reduceValue = array.reduce(function(), initialValue);
