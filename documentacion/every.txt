@@ -1,0 +1,13 @@
+Every:
+El método every es inmutable. Es todo lo contario a some.
+El método every consiste en retornar un valor lógico verdadero si todos los elementos
+cumplen con la condición establecida en la función.
+
+La función recibe como argumentos tres parametros
+1. El valor actual del elemento iterado
+2. El indice del elemento iterado
+3. El array que esta iterando.
+
+
+todos los items de every deben de cumplir con la condición para que devuelva true.
+De lo contrario si alguno falla, devuelve false;
