@@ -1,0 +1,17 @@
+Join:
+-> El método Join ayuda a concatenar elementos de un arreglo, mediante una separación y retorna un string.
+
+-> Si un elemento es undefined o null, retorna una cadena vacía
+
+-> El método solor recibe un parametro que es la separación de cada elemento al unirlos.
+	array.join('separacion');
+	
+	
+Split:
+-> El método split es todo lo contrario a join, en este caso split sirve para separa una cadena de string a un arreglo.
+
+-> Este método retorna un arreglo con los substring
+
+-> El método recibe dos argumentos:
+	1. El separador: Especifica el conjunto de caracteres a separar en substrings
+	2. El límite: Limite de elementos a separar
