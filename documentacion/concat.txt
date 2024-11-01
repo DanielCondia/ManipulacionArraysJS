@@ -1,0 +1,7 @@
+Concat:
+-> El método concat es inmutable y consiste en crear un nuevo arreglo a partir de la unión de otros arreglos
+
+-> Sirve tanto para arreglos y para strings
+
+...:
+-> Cuando hay tres puntos seguidos antes del arreglo significa la copia de los valores sin copiar la referencia en memoria
