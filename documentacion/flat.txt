@@ -1,0 +1,6 @@
+flat:
+-> flat en js consiste en retornar un array donde los subsarrays han sido aplanados hasta la profundidad específicada
+
+-> Nos sirve para aplanar arreglo de varias dimensiones, pero en este caso nosotros tenemos que especificar hasta que profundidad va a aplanar
+
+-> El método solo recibe un solo argumento que es la profundidad en la que se va a aplanar el arreglo.
