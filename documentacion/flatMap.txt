@@ -1,0 +1,6 @@
+flatMap:
+-> El método flatMap es inmutable y consiste en la combinación de los métodos map y flat.
+
+-> Primero realiza la iteración de los elementos como si fuera map, y luego los aplana en un solo arreglo como si fuera map
+
+-> Hay que tener en cuenta que flatMap no permite especificar hasta que nivel se quiere aplanar el arreglo con el flat.
